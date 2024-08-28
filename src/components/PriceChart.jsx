@@ -25,7 +25,7 @@ useEffect(() => {
   return (
     <Chart 
       chartType='LineChart'
-      Data={data}
+      data={data}
       height='100%'
       legendToggle
     />
